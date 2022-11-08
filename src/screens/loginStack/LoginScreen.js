@@ -48,11 +48,8 @@ const LoginScreen = () => {
         </View>
 
 
-        <View style={styles.centerContainer}>
-          <TouchableOpacity style={styles.loginButtonContainer}>
-            <Text style={styles.loginButtonTextStyle}>Login</Text>
-          </TouchableOpacity>
-        </View>
+        <ButtonComponent
+        title={"Login"}/>
 
 
         <View style={styles.socialFlexRow}>

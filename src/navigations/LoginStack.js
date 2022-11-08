@@ -2,7 +2,7 @@ import { Text, View } from 'react-native';
 import React, { Component } from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeTapsNavigator from '../screens/homeTaps/HomeTapsNavigator';
-import Profile from '../screens/loginStack/Profile';
+import ProfileScreen from '../screens/homeTaps/ProfileScreen';
 import Sopport from '../screens/loginStack/Sopport';
 import PaymentNow from '../screens/loginStack/PaymentNow';
 import PaymentHestory from '../screens/loginStack/PaymentHestory';
@@ -22,7 +22,7 @@ export function LoginStack({ user, setUser }) {
                 setUser={setUser} />
 
             <Stack.Screen name='Profile'
-                component={Profile}
+                component={ProfileScreen}
                 user={user}
                 setUser={setUser} />
 

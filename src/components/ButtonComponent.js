@@ -1,8 +1,8 @@
-import { Text, View } from 'react-native'
+import { Text, View,TouchableOpacity } from 'react-native'
 import React, { Component } from 'react'
 import styles from '../styles/initStyle'
 
-export const ButtonComponent =({title})=> {
+ const ButtonComponent =({title})=> {
 
     return (
         <View style={styles.buttonContainer}>
@@ -12,3 +12,5 @@ export const ButtonComponent =({title})=> {
     </View>
     )
 }
+
+export default ButtonComponent;
