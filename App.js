@@ -1,20 +1,23 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import InitScreen from './src/screens/InitScreen';
+import LoginScreen from './src/screens/loginStack/LoginScreen';
+import { NavigationContainer } from '@react-navigation/native';
+import React from 'react';
+import AuthNavigator from './src/navigations/AuthNavigator';
+import HomeTapsNavigator from './src/screens/homeTaps/HomeTapsNavigator';
+
 
 export default function App() {
+
+
+  const [newUser, setNewUser] = React.useState(false);
+
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <NavigationContainer>
+      {/* { newUser ? <InitScreen/> : <AuthNavigator setNewUser={setNewUser} /> } */}
+      <HomeTapsNavigator/>
+    </NavigationContainer>
+
+  )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
