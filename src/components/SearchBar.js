@@ -15,17 +15,17 @@ const SearchBar = () => {
         <TextInput
           style={styles.input}
           placeholder="Search for projects"
-          
         />
         {/* cross Icon, depending on whether the search bar is clicked or not */}
         
       </View>
-      {/* cancel button, depending on whether the search bar is clicked or not */}
-     
+      {/* cancel button, depending on whether the search bar is clicked or not */}  
     </View>
   );
 };
 export default SearchBar;
+
+
 
 // styles
 const styles = StyleSheet.create({

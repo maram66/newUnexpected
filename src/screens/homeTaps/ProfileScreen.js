@@ -1,12 +1,33 @@
-import * as React from 'react';
+import React, {useState} from 'react';
 import { Image, SafeAreaView, ScrollView, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import styles from '../../styles/homeTapsStyle';
 import ButtonComponent from '../../components/ButtonComponent';
 import menu_profile_icon from '../../../assets/menu_profile_icon.png';
 import { NavigationContainer } from '@react-navigation/native';
-
+import SideMenu from 'react-native-side-menu';
+import {useTranslation, I18nextProvider} from 'react-i18next';
+import i18next from 'i18next';
+import i18n from '../../../assets/i18n/i18n';
 
 export default function ProfileScreen() {
+
+
+  // const {t, i18n} = useTranslation();
+  
+  // const [currentLanguage,setLanguage] =useState('en');
+  
+  // const changeLanguagef = value => {
+  //   i18n
+  //     .changeLanguage(value)
+  //     .then(() => setLanguage(value))
+  //     .catch(err => console.log(err));
+
+
+  //     console.log(currentLanguage);
+  // };
+  
+
+
   return (
     <View style={styles.mainContainer}>
       <SafeAreaView style={styles.droidSafeArea}>
@@ -17,9 +38,9 @@ export default function ProfileScreen() {
             </TouchableOpacity>
           </View>
           <View style={styles.marginTopContainer}>
-            <View style={styles.imageViewStyle}>
+            <TouchableOpacity style={styles.imageViewStyle}>
               <Image />
-            </View>
+            </TouchableOpacity>
 
             <Text style={styles.userNameStyle}>Stave Job</Text>
             <View style={styles.editStyle}>

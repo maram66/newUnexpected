@@ -20,7 +20,6 @@ const styles = StyleSheet.create({
 
     //* Start Home Screen Style *//
     
-
     rowDirectionAppBar:{
         flexDirection: 'row',
         backgroundColor:"yellow",
@@ -118,8 +117,9 @@ const styles = StyleSheet.create({
     buttonContainer:{
         justifyContent:'center',
         alignItems:'center',
-
     },
+
+   
 
 
 

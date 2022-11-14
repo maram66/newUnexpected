@@ -6,18 +6,22 @@ import AuthNavigator from './src/navigations/AuthNavigator';
 import HomeTapsNavigator from './src/screens/homeTaps/HomeTapsNavigator';
 
 
+
 export default function App() {
 
 
   const [newUser, setNewUser] = React.useState(false);
 
-
+ 
   return (
-    <NavigationContainer>
+    
+<NavigationContainer>
       {/* { newUser ? <InitScreen/> : <AuthNavigator setNewUser={setNewUser} /> } */}
       <HomeTapsNavigator/>
     </NavigationContainer>
+ 
+    
 
-  )
+  );
 }
 

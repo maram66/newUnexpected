@@ -5,9 +5,9 @@ import pec from '../../../assets/pec.png';
 import personal from '../../../assets/personal.png';
 import SearchBar from '../../components/SearchBar';
 
+
 export default function HomeScreen() {
 
-  
 
   return (
     <View style={styles.mainContainer}>
@@ -32,12 +32,7 @@ export default function HomeScreen() {
 
           <SearchBar/>
 
-          <View>
-
-          </View>
-
           
-
         </ScrollView>
       </SafeAreaView>
     </View>
