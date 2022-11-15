@@ -6,10 +6,7 @@ const { StyleSheet } = React;
 const styles = StyleSheet.create({
 
     container:{
-
-        justifyContent:'center',
-        alignItems:'center',
-
+        flex:1
     },
 
     horiCardStyle: {
@@ -18,6 +15,14 @@ const styles = StyleSheet.create({
         height: 100,
         borderRadius: 20,
         margin:10
+    },
+
+    horiCardStyleA: {
+        backgroundColor: 'red',
+        width: 70,
+        height: 90,
+        borderRadius: 20,
+        margin:7,
     },
 
 
