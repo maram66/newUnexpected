@@ -20,8 +20,3 @@ import styles from './ComponentsStyle'
 }
 
 export default HoriCard;
-hello maram 
-i want to see the cafed file .git
-u can join the meet plz
-we will try something
-try to change origin with maram no tamakan 
