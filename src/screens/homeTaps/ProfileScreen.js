@@ -5,9 +5,9 @@ import ButtonComponent from '../../components/ButtonComponent';
 import menu_profile_icon from '../../../assets/menu_profile_icon.png';
 import { NavigationContainer } from '@react-navigation/native';
 import SideMenu from 'react-native-side-menu';
-import {useTranslation, I18nextProvider} from 'react-i18next';
-import i18next from 'i18next';
-import i18n from '../../../assets/i18n/i18n';
+// import {useTranslation, I18nextProvider} from 'react-i18next';
+// import i18next from 'i18next';
+// import i18n from '../../../assets/i18n/i18n';
 
 export default function ProfileScreen() {
 
@@ -26,7 +26,7 @@ export default function ProfileScreen() {
   //     console.log(currentLanguage);
   // };
   
-
+////////
 
   return (
     <View style={styles.mainContainer}>
