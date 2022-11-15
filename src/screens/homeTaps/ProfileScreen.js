@@ -26,8 +26,7 @@ export default function ProfileScreen() {
   //     console.log(currentLanguage);
   // };
   
-////////
-
+//
   return (
     <View style={styles.mainContainer}>
       <SafeAreaView style={styles.droidSafeArea}>
