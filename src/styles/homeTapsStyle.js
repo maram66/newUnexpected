@@ -18,6 +18,10 @@ const styles = StyleSheet.create({
         backgroundColor:"#fff"
     },
 
+    flexRow:{
+        flexDirection:'row'
+    },
+
     //* Start Home Screen Style *//
     
     rowDirectionAppBar:{

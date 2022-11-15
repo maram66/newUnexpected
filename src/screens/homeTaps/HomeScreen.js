@@ -4,6 +4,7 @@ import styles from '../../styles/homeTapsStyle';
 import pec from '../../../assets/pec.png';
 import personal from '../../../assets/personal.png';
 import SearchBar from '../../components/SearchBar';
+import HoriCard from '../../components/HoriCard';
 
 
 export default function HomeScreen() {
@@ -31,6 +32,13 @@ export default function HomeScreen() {
           </View>
 
           <SearchBar/>
+
+          <View style={styles.flexRow}>
+            <HoriCard/>
+            <HoriCard/>
+            <HoriCard/>
+            <HoriCard/>
+          </View>
 
           
         </ScrollView>
